@@ -14,6 +14,8 @@ public class Main {
 		int N = sc.nextInt();
 		int NDigit;
 		
+		sc.close();
+		
 		for(i=1; i<=N; i++) {
 			NDigit = i;
 			digitCount = 0;
@@ -41,7 +43,5 @@ public class Main {
 		}
 		
 		System.out.println(count);
-		
-		sc.close();
 	}
 }

@@ -18,5 +18,7 @@ public class Main {
     	}
     	
     	System.out.println((sum/N) * (100/high));
+    	
+    	sc.close();
     }
 }
