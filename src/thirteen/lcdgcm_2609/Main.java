@@ -1,4 +1,4 @@
-package twelve.lcdgcm_2609;
+package thirteen.lcdgcm_2609;
 import java.util.*;
 
 public class Main {

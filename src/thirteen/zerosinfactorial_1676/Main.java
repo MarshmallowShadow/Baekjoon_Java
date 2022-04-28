@@ -1,4 +1,4 @@
-package twelve.zerosinfactorial_1676;
+package thirteen.zerosinfactorial_1676;
 import java.util.*;
 
 public class Main {

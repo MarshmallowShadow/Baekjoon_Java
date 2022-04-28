@@ -1,4 +1,4 @@
-package twelve.combination2_11051;
+package thirteen.combination2_11051;
 import java.util.*;
 
 public class Main {

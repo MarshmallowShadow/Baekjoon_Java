@@ -1,4 +1,4 @@
-package twelve.zerosincombination_2004;
+package thirteen.zerosincombination_2004;
 import java.util.Scanner;
 
 public class Main {

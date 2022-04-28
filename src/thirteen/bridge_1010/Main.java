@@ -1,4 +1,4 @@
-package twelve.bridge_1010;
+package thirteen.bridge_1010;
 import java.util.*;
 
 public class Main {

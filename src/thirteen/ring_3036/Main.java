@@ -1,4 +1,4 @@
-package twelve.ring_3036;
+package thirteen.ring_3036;
 import java.util.*;
 
 public class Main {

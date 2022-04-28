@@ -1,4 +1,4 @@
-package twelve.factormultiple_5086;
+package thirteen.factormultiple_5086;
 import java.util.*;
 
 public class Main {

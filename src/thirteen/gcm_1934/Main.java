@@ -1,4 +1,4 @@
-package twelve.gcm_1934;
+package thirteen.gcm_1934;
 import java.util.Scanner;
 
 public class Main {
