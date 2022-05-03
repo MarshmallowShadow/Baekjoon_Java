@@ -12,9 +12,6 @@ public class Main {
 		
 		for(int i=0; i<word.length(); i++) {
 			sum += letters[word.charAt(i) - 65];
-			while(sum > 10) {
-				sum %= 10;
-			}
 		}
 		
 		if(sum%2 != 0) {
@@ -22,6 +19,8 @@ public class Main {
 		} else {
 			System.out.println("You're the winner?");
 		}
+		
+		sc.close();
 	}
 	
 	public static void setScores(int[] letters) {
