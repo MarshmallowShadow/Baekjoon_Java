@@ -1,4 +1,4 @@
-package agroup.bj002578_bingo;
+package bj002578_bingo;
 import java.util.*;
 
 public class Main {

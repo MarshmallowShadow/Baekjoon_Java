@@ -1,4 +1,4 @@
-package agroup.bj002920_tone;
+package bj002920_tone;
 import java.util.*;
 
 public class Main {

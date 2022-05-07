@@ -1,4 +1,4 @@
-package agroup.bj001212_bit;
+package bj001212_bit;
 import java.io.*;
 
 public class Main {

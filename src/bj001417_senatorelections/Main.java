@@ -1,4 +1,4 @@
-package agroup.bj001417_senatorelections;
+package bj001417_senatorelections;
 import java.util.*;
 
 public class Main {

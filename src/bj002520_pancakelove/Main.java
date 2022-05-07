@@ -1,4 +1,4 @@
-package agroup.bj002520_pancakelove;
+package bj002520_pancakelove;
 import java.util.*;
 
 public class Main {
