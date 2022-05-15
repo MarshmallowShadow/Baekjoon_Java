@@ -1,4 +1,4 @@
-package agroup.bj001476_weathercalc;
+package bj001476_weathercalc;
 import java.util.*;
 
 public class Main {

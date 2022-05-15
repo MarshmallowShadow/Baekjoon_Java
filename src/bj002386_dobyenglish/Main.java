@@ -1,4 +1,4 @@
-package agroup.bj002386_dobyenglish;
+package bj002386_dobyenglish;
 import java.util.*;
 
 public class Main {

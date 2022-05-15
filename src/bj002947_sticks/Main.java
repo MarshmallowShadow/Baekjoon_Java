@@ -1,4 +1,4 @@
-package agroup.bj002947_sticks;
+package bj002947_sticks;
 import java.util.*;
 
 public class Main {

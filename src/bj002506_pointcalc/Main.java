@@ -1,4 +1,4 @@
-package agroup.bj002506_pointcalc;
+package bj002506_pointcalc;
 import java.util.*;
 
 public class Main {

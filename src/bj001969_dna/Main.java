@@ -1,4 +1,4 @@
-package agroup.bj001969_dna;
+package bj001969_dna;
 import java.io.*;
 import java.util.*;
 
