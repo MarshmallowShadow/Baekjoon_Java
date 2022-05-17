@@ -1,4 +1,4 @@
-package agroup.bj_001120_string;
+package bj_001120_string;
 import java.util.*;
 
 public class Main {

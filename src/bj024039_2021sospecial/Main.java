@@ -1,4 +1,4 @@
-package agroup.bj024039_2021sospecial;
+package bj024039_2021sospecial;
 import java.io.*;
 
 public class Main {

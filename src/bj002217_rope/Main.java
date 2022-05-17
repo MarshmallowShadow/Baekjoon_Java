@@ -1,4 +1,4 @@
-package agroup.bj002217_rope;
+package bj002217_rope;
 import java.io.*;
 
 public class Main {

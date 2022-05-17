@@ -1,4 +1,4 @@
-package agroup.bj016488_pikachushardproblem;
+package bj016488_pikachushardproblem;
 import java.util.*;
 
 public class Main {
