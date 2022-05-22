@@ -1,4 +1,4 @@
-package agroup.bj014912_numberfrequency;
+package bj014912_numberfrequency;
 
 /*14912번: 숫자 빈도수
 

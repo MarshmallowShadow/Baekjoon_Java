@@ -1,4 +1,4 @@
-package agroup.bj005587_cardcaptorsg;
+package bj005587_cardcaptorsg;
 
 /* 5587번: 카드 캡터 상근이
 

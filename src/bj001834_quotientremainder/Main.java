@@ -1,4 +1,4 @@
-package agroup.bj001834_quotientremainder;
+package bj001834_quotientremainder;
 
 /* 1834번: 나머지와 몫이 같은 수
 

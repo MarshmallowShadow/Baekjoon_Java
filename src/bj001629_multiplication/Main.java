@@ -1,4 +1,4 @@
-package agroup.bj001629_multiplication;
+package bj001629_multiplication;
 
 /* 1629¹ø: °ö¼À
 

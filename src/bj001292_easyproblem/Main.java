@@ -1,4 +1,4 @@
-package agroup.bj001292_easyproblem;
+package bj001292_easyproblem;
 
 /* 1292번 쉽게 푸는 문제
 
