@@ -25,16 +25,8 @@ public class Main {
 		int N = sc.nextInt();
 		String meal = sc.next();
 		
-		int C = 0;
-		int O = 0;
-		
-		for(int i=0; i<N; i++) {
-			if(meal.charAt(i) == 'C') {
-				C++;
-			} else {
-				O++;
-			}
-		}
+		int O = meal.replace("C", "").length();
+		int C = N - O;
 		
 		O++;
 		

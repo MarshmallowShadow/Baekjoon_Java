@@ -31,7 +31,7 @@ public class Main {
 			if(books.containsKey(s)) {
 				books.put(s, books.get(s) + 1);
 			} else {
-				books.put(s, 0);
+				books.put(s, 1);
 			}
 		}
 		
