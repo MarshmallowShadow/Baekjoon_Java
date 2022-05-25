@@ -1,4 +1,4 @@
-package agroup.bj004949_balancedworld;
+package bj004949_balancedworld;
 
 /* 4949번: 균형잡힌 세상
 세계는 균형이 잘 잡혀있어야 한다. 양과 음, 빛과 어둠 그리고 왼쪽 괄호와 오른쪽 괄호처럼 말이다.

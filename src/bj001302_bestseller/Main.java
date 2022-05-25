@@ -1,4 +1,4 @@
-package agroup.bj001302_bestseller;
+package bj001302_bestseller;
 
 /* 1302번: 베스트셀러
 

@@ -1,4 +1,4 @@
-package agroup.bj010828_stack;
+package bj010828_stack;
 
 /* 10828¹ø: ½ºÅÃ
 
