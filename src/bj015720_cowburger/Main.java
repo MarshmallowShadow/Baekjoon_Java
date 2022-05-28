@@ -1,4 +1,4 @@
-package agroup.bj015720_cowburger;
+package bj015720_cowburger;
 
 /*15720번: 카우버거 (https://www.acmicpc.net/problem/15720)
 
