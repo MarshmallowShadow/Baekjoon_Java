@@ -29,27 +29,36 @@ public class Main {
 		
 		int[] sg = new int[N];
 		
+		//convert to int
 		for(int i=0; i<N; i++) {
 			sg[i] = Integer.parseInt(s1[i]);
 		}
+		//sort array
 		sort(sg, 0, sg.length - 1);
 		
+		//loop to start search for each index in s2
 		for(int i=0; i<M; i++) {
+			//convert string in s1[i] to int
 			int c = Integer.parseInt(s2[i]);
+			
+			//check if it exists
 			if(search(c, sg)) {
 				bw.write("1");
 			} else {
 				bw.write("0");
 			}
+			
+			//print space inbetween
 			if(i != M-1) {
 				bw.write(" ");
 			}
 		}
 		
+		//print output
 		bw.flush();
 	}
 	
-	
+	//binary search
 	public static boolean search(int n, int[] sg) {
 		int i=sg.length/2;
 		int l=-1;
@@ -70,6 +79,7 @@ public class Main {
 		return false;
 	}
 	
+	//merge sort
 	public static void sort(int[] sg, int l, int r) {
 		if(l < r) {
 			int m = l + (r-l) / 2;
