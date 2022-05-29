@@ -33,7 +33,7 @@ public class Main {
 		for(int i=0; i<N; i++) {
 			sg[i] = Integer.parseInt(s1[i]);
 		}
-		//sort array
+		//sort array of »ó±Ù
 		sort(sg, 0, sg.length - 1);
 		
 		//loop to start search for each index in s2
@@ -48,13 +48,13 @@ public class Main {
 				bw.write("0");
 			}
 			
-			//print space inbetween
+			//write a space EXCEPT when i is the last index
 			if(i != M-1) {
 				bw.write(" ");
 			}
 		}
 		
-		//print output
+		//print output to console
 		bw.flush();
 	}
 	
