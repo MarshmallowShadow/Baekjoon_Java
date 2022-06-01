@@ -1,4 +1,4 @@
-package agroup.bj010866_deque;
+package bj010866_deque;
 
 /* 10866¹ø: µ¦ (https://www.acmicpc.net/problem/10866)
 
@@ -107,5 +107,4 @@ public class Main {
 		}
 		return deque.get(0);
 	}
-	
 }

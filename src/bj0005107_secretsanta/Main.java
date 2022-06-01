@@ -1,4 +1,4 @@
-package agroup.bj0005107_secretsanta;
+package bj0005107_secretsanta;
 
 /* 5107번: 마니또 (https://www.acmicpc.net/problem/5107)
 	
@@ -22,7 +22,6 @@ package agroup.bj0005107_secretsanta;
 */
 
 import java.util.*;
-
 
 //HashMap
 public class Main {

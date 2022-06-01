@@ -1,4 +1,4 @@
-package agroup.bj016395_pascaltriangle;
+package bj016395_pascaltriangle;
 
 /* 016395¹ø: ÆÄ½ºÄ®ÀÇ »ï°¢Çü (https://www.acmicpc.net/problem/16395)
 
@@ -31,6 +31,7 @@ public class Main {
 		int n = sc.nextInt()-1;
 		int k = sc.nextInt()-1;
 		
+		//nCk = n! / (k!*(n-k)!)
 		int C = (int)(factorial(n) / (factorial(k) * factorial(n-k)));
 		
 		System.out.println(C);

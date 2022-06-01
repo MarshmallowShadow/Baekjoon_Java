@@ -1,4 +1,4 @@
-package agroup.bj010815_numbercard;
+package bj010815_numbercard;
 
 /* 10815번: 숫자 카드 (https://www.acmicpc.net/problem/10815)
 	
@@ -84,9 +84,12 @@ public class Main {
 		if(l < r) {
 			int m = l + (r-l) / 2;
 			
+			//right
 			sort(sg, m+1, r);
+			//left
 			sort(sg, l, m);
 			
+			//merge
 			merge(sg, m, l ,r);
 		}
 	}
@@ -98,6 +101,7 @@ public class Main {
 		int[] L = new int[left];
 		int[] R = new int[right];
 		
+		//temporary storage
 		for(int i=0; i<left; i++) {
 			L[i] = sg[l+i];
 		}
@@ -109,6 +113,7 @@ public class Main {
 		int j=0;
 		int k = l;
 		
+		//comparing values at each index
 		while(i<left && j<right) {
 			if(L[i] <= R[j]) {
 				sg[k] = L[i];
@@ -119,6 +124,7 @@ public class Main {
 			}
 			k++;
 		}
+		//insert leftovers
 		while(i<left) {
 			sg[k] = L[i];
 			i++;
