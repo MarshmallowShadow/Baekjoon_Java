@@ -1,4 +1,4 @@
-package agroup.bj006603_lotto;
+package bj006603_lotto;
 
 /* 6603¹ø: ·Î¶Ç (https://www.acmicpc.net/problem/6603)
 
