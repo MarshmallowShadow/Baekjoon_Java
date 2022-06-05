@@ -1,6 +1,6 @@
 package agroup.bj004289_rpstour;
 
-/* 4289¹ø: Rock-Paper-Scissors Tournament (https://www.acmicpc.net/problem/4289)
+/* 4289ë²ˆ: Rock-Paper-Scissors Tournament (https://www.acmicpc.net/problem/4289)
 
 Rock-Paper-Scissors is game for two players, A and B, who each choose, independently of the other,
 one of rock, paper, or scissors. A player chosing paper wins over a player chosing rock;
@@ -16,8 +16,8 @@ where w is the number of games won, and l is the number of games lost, by the pl
 
 Input:
 Input consists of several test cases. The first line of input for each case contains
-1 ¡Â n ¡Â 100 1 ¡Â k ¡Â 100 as defined above. For each game, a line follows containing
-p1, m1, p2, m2. 1 ¡Â p1 ¡Â n and 1 ¡Â p2 ¡Â n are distinct integers identifying two players;
+1 â‰¤ n â‰¤ 100 1 â‰¤ k â‰¤ 100 as defined above. For each game, a line follows containing
+p1, m1, p2, m2. 1 â‰¤ p1 â‰¤ n and 1 â‰¤ p2 â‰¤ n are distinct integers identifying two players;
 m1 and m2 are their respective moves ("rock", "scissors", or "paper"). A line containing 0
 follows the last test case.
 
@@ -34,51 +34,51 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		while(true) {
-			int n = sc.nextInt(); //¼±¼ö
+			int n = sc.nextInt(); //ì„ ìˆ˜
 			
-			//0À¸·Î ¹İº¹¹® ²÷±è
+			//0ìœ¼ë¡œ ë°˜ë³µë¬¸ ëŠê¹€
 			if(n == 0) {
 				break;
 			}
 			
-			int k = sc.nextInt(); //°¢ °ÔÀÓ
+			int k = sc.nextInt(); //ê° ê²Œì„
 			sc.nextLine();
 			
 			double[] wins = new double[n];
 			double[] total = new double[n];
 			
-			int games = k*n*(n-1)/2; //ÃÑ ÁøÇàµÇ´Â °ÔÀÓ
+			int games = k*n*(n-1)/2; //ì´ ì§„í–‰ë˜ëŠ” ê²Œì„
 			
 			for(int j=0; j<games; j++) {
-				int p1 = sc.nextInt(); //¼±¼ö1 ¹øÈ£
-				String m1 = sc.next(); //¼±¼ö1 ÀÔ·Â
-				int p2 = sc.nextInt(); //¼±¼ö2 ¹øÈ£
-				String m2 = sc.next(); //¼±¼ö2 ÀÔ·Â
+				int p1 = sc.nextInt(); //ì„ ìˆ˜1 ë²ˆí˜¸
+				String m1 = sc.next(); //ì„ ìˆ˜1 ì…ë ¥
+				int p2 = sc.nextInt(); //ì„ ìˆ˜2 ë²ˆí˜¸
+				String m2 = sc.next(); //ì„ ìˆ˜2 ì…ë ¥
 				sc.nextLine();
 				
-				int winner = rps(p1, m1, p2, m2); //¾î´À Àü¼ö°¡ ÀÌ±â´Â°¡
+				int winner = rps(p1, m1, p2, m2); //ì–´ëŠ ì „ìˆ˜ê°€ ì´ê¸°ëŠ”ê°€
 				
-				//¹«½ÂºÎ ¾Æ´Ï¸é
+				//ë¬´ìŠ¹ë¶€ ì•„ë‹ˆë©´
 				if(winner != -1) {
 					wins[(int)winner-1]++;
 					
-					//½ÂÆĞ°¡ °¡¸± °æ¿ì¿¡¸¸ ÃÑ ÁøÇàÇ× °ÔÀÓ È½¼ö¿¡ Ãß°¡
+					//ìŠ¹íŒ¨ê°€ ê°€ë¦´ ê²½ìš°ì—ë§Œ ì´ ì§„í–‰í•­ ê²Œì„ íšŸìˆ˜ì— ì¶”ê°€
 					total[p1-1]++;
 					total[p2-1]++;
 				}
 			}
 			
-			//¼±¼öµé ½Â·ü Ãâ·Â
+			//ì„ ìˆ˜ë“¤ ìŠ¹ë¥  ì¶œë ¥
 			for(int i=0; i<n; i++) {
-				//¼±¼ö°¡ ±×³É ¹«½ÂºÎ¸¸ ÀÖÀ» °æ¿ì¿£ "-" Ãâ·Â
+				//ì„ ìˆ˜ê°€ ê·¸ëƒ¥ ë¬´ìŠ¹ë¶€ë§Œ ìˆì„ ê²½ìš°ì—” "-" ì¶œë ¥
 				if((int)total[i] == 0) {
 					System.out.println("-");
 					continue;
 				}
 				
-				//¾Æ´Ï¸é 3¹İ¿Ã¸²À¸·Î Ãâ·Â
+				//ì•„ë‹ˆë©´ 3ë°˜ì˜¬ë¦¼ìœ¼ë¡œ ì¶œë ¥
 				double rate = wins[i]/total[i];
-				System.out.format("%.3f", rate); //¹İ¿Ã¸²
+				System.out.format("%.3f", rate); //ë°˜ì˜¬ë¦¼
 				System.out.println();
 			}
 			
@@ -89,7 +89,7 @@ public class Main {
 		sc.close();
 	}
 	
-	//°¡À§¹ÙÀ§º¸
+	//ê°€ìœ„ë°”ìœ„ë³´
 	public static int rps(int p1, String m1, int p2, String m2) {
 		if(m1.equals("rock") && m2.equals("scissors")) {
 			return p1;
@@ -103,7 +103,7 @@ public class Main {
 			return p2;
 		} else if(m2.equals("scissors") && m1.equals("paper")) {
 			return p2;
-		} else { //¹«½ÂºÎ¸é -1
+		} else { //ë¬´ìŠ¹ë¶€ë©´ -1
 			return -1;
 		}
 	}
