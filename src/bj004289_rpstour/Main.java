@@ -1,4 +1,4 @@
-package agroup.bj004289_rpstour;
+package bj004289_rpstour;
 
 /* 4289번: Rock-Paper-Scissors Tournament (https://www.acmicpc.net/problem/4289)
 

@@ -1,4 +1,4 @@
-package agroup.bj001977_perfectsquare;
+package bj001977_perfectsquare;
 
 /* 1977번: 완전제곱수 (https://www.acmicpc.net/problem/1977)
 

@@ -1,4 +1,4 @@
-package agroup.bj001357_reversenum;
+package bj001357_reversenum;
 
 /* 1357번: 뒤집힌 덧셈 (https://www.acmicpc.net/problem/1357)
 
