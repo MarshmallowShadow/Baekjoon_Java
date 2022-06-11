@@ -33,11 +33,7 @@ public class Main {
 		
 		int cut;
 		
-		if(N < M) {
-			cut = (N-1) + N * (M-1); 
-		} else {
-			cut = (M-1) + M * (N-1);
-		}
+		cut = (M-1) + M * (N-1);
 		
 		System.out.println(cut);
 		
