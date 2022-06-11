@@ -1,4 +1,4 @@
-package agroup.bj09299_mathtutoring;
+package bj09299_mathtutoring;
 
 /* 9299번: Math Tutoring
 

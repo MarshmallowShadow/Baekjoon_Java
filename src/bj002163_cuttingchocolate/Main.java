@@ -1,4 +1,4 @@
-package agroup.bj002163_cuttingchocolate;
+package bj002163_cuttingchocolate;
 
 /* 2163: 초콜릿 자르기 (https://www.acmicpc.net/problem/2163)
 

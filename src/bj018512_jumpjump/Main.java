@@ -1,4 +1,4 @@
-package agroup.bj018512_jumpjump;
+package bj018512_jumpjump;
 
 /* 18512번: 점프점프 (https://www.acmicpc.net/problem/18512)
 
