@@ -1,4 +1,4 @@
-package agroup.bj011005_decimalconversion;
+package bj011005_decimalconversion;
 
 /* 11005번: 진법 변환
 
@@ -26,20 +26,25 @@ public class Main {
 		
 		String newNum = "";
 		
+		//if num is 0, print 0 
 		if(dec == 0) {
 			newNum = "0";
 		}
 		
 		while(dec > 0) {
+			//get remainder
 			int d = dec % base;
 			
+			//determine whether to add number or letter
 			if(d <= 9) {
 				newNum = d + newNum;
 			} else {
+				//ASCII code for 'A' is 65
 				char c = (char)(55 + d);
 				newNum = c + newNum;
 			}
 			
+			//divide number by base
 			dec /= base;
 		}
 		
