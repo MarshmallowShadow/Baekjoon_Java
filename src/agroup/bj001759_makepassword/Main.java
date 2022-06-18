@@ -47,8 +47,8 @@ public class Main {
 		bw.flush();
 	}
 	
-	//매개변수: 입력한 캐릭터들, 채워서 출력할 배열, combo배열 위치, c배열 위치
-	public static void print(char[] c, char[] combo, int pos, int pos2) throws IOException {
+	//매개변수: 입력한 캐릭터들, 채워서 출력할 배열, combo배열 위치, chars배열 위치
+	public static void print(char[] chars, char[] combo, int pos, int pos2) throws IOException {
 		//암호 조건 확인
 		if(combo.length == pos) {
 			int vowel = 0;
@@ -56,11 +56,15 @@ public class Main {
 			boolean valid = false;
 			
 			for(int i=0; i<pos; i++) {
+				//모음
 				if(combo[i] == 'a' || combo[i] == 'e' || combo[i] == 'i' || combo[i] == 'o' || combo[i] == 'u') {
 					vowel++;
-				} else {
+				}
+				//자음
+				else {
 					consonant++;
 				}
+				//조건 만족하면 조건이 true로 설정 후 break;
 				if(vowel >= 1 && consonant >= 2) {
 					valid = true;
 					break;
@@ -78,9 +82,9 @@ public class Main {
 		}
 		
 		//재귀로 배열 하나한씩 채우기
-		for(int j=pos2; j<c.length; j++) {
-			combo[pos] = c[j];
-			print(c, combo, pos+1, j+1);
+		for(int j=pos2; j<chars.length; j++) {
+			combo[pos] = chars[j];
+			print(chars, combo, pos+1, j+1);
 		}
 		
 		return;
