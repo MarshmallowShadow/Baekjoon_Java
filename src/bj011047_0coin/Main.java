@@ -1,4 +1,4 @@
-package agroup.bj011047_0coin;
+package bj011047_0coin;
 
 /* 11047번: 동전 0
 

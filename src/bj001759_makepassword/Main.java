@@ -1,4 +1,4 @@
-package agroup.bj001759_makepassword;
+package bj001759_makepassword;
 
 /* 1759번: 암호 만들기
 

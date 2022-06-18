@@ -1,4 +1,4 @@
-package agroup.bj014494_whatisdynamic;
+package bj014494_whatisdynamic;
 
 /* 14494번: 다이나믹이 뭐에요?
 

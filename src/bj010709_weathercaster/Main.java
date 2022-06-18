@@ -1,4 +1,4 @@
-package agroup.bj010709_weathercaster;
+package bj010709_weathercaster;
 
 /* 10709번: 기상캐스터 (https://www.acmicpc.net/problem/10709)
 
