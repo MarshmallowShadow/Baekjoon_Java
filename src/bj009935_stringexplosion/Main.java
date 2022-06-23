@@ -1,5 +1,4 @@
-package agroup.bj009935_stringexplosion;
-
+package bj009935_stringexplosion;
 
 /* 9935번: 문자열 폭팔 (https://www.acmicpc.net/problem/9935)
 
