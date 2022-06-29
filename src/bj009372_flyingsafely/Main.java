@@ -1,4 +1,4 @@
-package agroup.bj009372_flyingsafely;
+package bj009372_flyingsafely;
 
 /* 9372변: 상근이의 여행 (https://www.acmicpc.net/problem/9372)
 

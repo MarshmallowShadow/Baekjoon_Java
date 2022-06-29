@@ -1,4 +1,4 @@
-package agroup.bj010216_countcirclegroups;
+package bj010216_countcirclegroups;
 
 /* 10216번: Count Circle Groups (https://www.acmicpc.net/problem/10216)
 

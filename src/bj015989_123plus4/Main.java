@@ -1,4 +1,4 @@
-package agroup.bj015989_123plus4;
+package bj015989_123plus4;
 
 /* 15989번: 1, 2, 3 더하기 4
 

@@ -1,4 +1,4 @@
-package agroup.bj001068_tree;
+package bj001068_tree;
 
 /* 1068번: 트리 (https://www.acmicpc.net/problem/1068)
 
