@@ -25,7 +25,7 @@ public class Main {
 		long N = sc.nextLong();
 		String winner;
 		
-		if((N-2) % 7 == 5 || (N-2) % 7 == 0) {
+		if(N % 7 == 2 || N % 7 == 0) {
 			winner = "CY";
 		}
 		else {
