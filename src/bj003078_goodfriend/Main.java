@@ -1,4 +1,4 @@
-package agroup.bj003078_goodfriend;
+package bj003078_goodfriend;
 
 /* 좋은 친구 (https://www.acmicpc.net/problem/3078)
 

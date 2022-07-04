@@ -1,4 +1,4 @@
-package agroup.bj009660_stonegame6;
+package bj009660_stonegame6;
 
 /* 9960번: 돌 게임 6 (https://www.acmicpc.net/problem/9660)
 
