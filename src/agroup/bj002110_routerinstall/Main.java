@@ -51,18 +51,19 @@ public class Main {
 		
 		while(max-1 > min) {
 			int mid = (max + min) / 2;
-			int startLoc = house[0];
-			int routers = 1;
+			int startLoc = house[0]; //시작 위치
+			int routers = 1; //라우터를 첫번째 자리에 설치
 			
-			//조건 맞게 라우터를 설치하는 과정
+			//조건 맞게 라우터를 설치하는 시뮬레이션
 			for(int i=1; i<N; i++) {
+				//라우터의 거리가 mid보다 크거나 같으면 설치한다
 				if(house[i] - startLoc >= mid) {
-					routers++;
-					startLoc = house[i];
+					routers++; //라우터 설치
+					startLoc = house[i]; //라우터 거리 위치 현위치로 설정
 				}
 			}
 			
-			//설치한 라우터 갯수대로 비교
+			//설치한 라우터 갯수대로 비교해서 max/min값 조절
 			if(routers >= C) {
 				min = mid;
 				if(result < mid) {
