@@ -1,4 +1,4 @@
-package agroup.bj002502_cakeeatingtiger;
+package bj002502_cakeeatingtiger;
 
 /* 2502번: 떡 먹는 호랑이
 
