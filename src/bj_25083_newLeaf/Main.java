@@ -1,0 +1,17 @@
+package bj_25083_newLeaf;
+
+/*25083: 새싹
+새싹을 출력하시오.
+*/
+
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("         ,r'\"7");
+		System.out.println("r`-_   ,'  ,/");
+		System.out.println(" \\. \". L_r'");
+		System.out.println("   `~\\/");
+		System.out.println("      |");
+		System.out.println("      |");
+		
+	}
+}
