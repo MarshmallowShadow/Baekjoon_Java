@@ -1,4 +1,4 @@
-package bj25083_newLeaf;
+package bj025083_newLeaf;
 
 /*25083: 새싹
 새싹을 출력하시오.
