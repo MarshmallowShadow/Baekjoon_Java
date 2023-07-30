@@ -1,4 +1,4 @@
-package bj0005107_secretsanta;
+package bj005107_secretsanta;
 
 /* 5107번: 마니또 (https://www.acmicpc.net/problem/5107)
 	
